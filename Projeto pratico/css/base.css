@@ -1,0 +1,110 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300px;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 15px;
+    min-height: 100vh;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section#contato {
+    min-height: 100vh;
+}
+
+img.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    /* Firefox 3.5+ */
+    filter: gray;
+    /* IE6-9 */
+    -webkit-filter: grayscale(100%);
+    /* Chrome 19+ & Safari 6+ */
+}
+
+img.grayscale:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+.navbar-brand {
+    font-size: 40px;
+}
+
+.navbar-collapse {
+    font-size: 22px;
+}
+
+.carousel-indicators {
+    padding-bottom: 30px;
+}
+
+.carousel {
+    padding-top: 120px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.servicos_item {
+    text-align: center;
+}
+
+.servicos_item h4 {
+    margin-top: 40px;
+}
+
+.btn_servicos {
+    margin-top: 50px;
+}
+
+.portfolio_row {
+    margin-top: 40px;
+}
+
+.portfolio_item h4 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn_portfolio {
+    margin-top: 50px;
+}
+
+.quemsomos_imagem {
+    float: right;
+}
+
+.contato textarea {
+    height: 130px;
+}
+
+.aviso_mensagem {
+    padding: 20px;
+    background: lightgreen;
+}
+
+.form-login {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: #eeeeee;
+}
+
+.form_login1 {
+    padding-top: 120px;
+}
+
+.form-login2 {
+    padding: 10px;
+}
